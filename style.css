@@ -1,0 +1,654 @@
+body {
+    background-color: #222A31;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    flex-direction: column;
+}
+#inicio{
+    width: 700px;
+    height: 120px;
+    border-radius: 20px;
+    background-color: #393F46;
+    margin: 20px;
+    color: white;
+    font-size: 33px;
+    font-family: 'Fredoka'; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+#nome{
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    top: 37%;
+}
+
+#Judson{
+    color: white;
+    font-size: 24px;
+    font-family: 'Judson';
+    font-style: italic;
+    position: absolute;
+    transform: translate(-50%, 50%);
+    top: 42%;
+    left: 50%;
+    text-align: center; 
+}
+#fundo{
+    background-color: #393F46;
+    width: 1903px;
+    height: 1500px;
+    position: absolute;
+    top: 100%;
+    
+}
+
+#habilidade {
+    color: white;
+    font-size: 56px;
+    font-family: 'Fredoka'; 
+    top: 106%;
+    position: absolute;
+}
+
+#table{
+    display: inline-block;
+    background-color: #222A31;
+    position: absolute;
+    width: 700px;
+    height: 1200px;
+    border-radius: 10px;
+    top: 120%;
+
+}
+
+.retacss{
+    background-color: #393F46;
+    position: absolute;
+    border-radius: 7px;
+    width: 257px;
+    height: 219px;
+    top: 4%;
+    left: 7%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.retahtml{
+    background-color: #393F46;
+    position: absolute;
+    border-radius: 7px;
+    width: 257px;
+    height: 220px;
+    top: 4%;
+    left: 55%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.retac{
+    background-color: #393F46;
+    position: absolute;
+    border-radius: 7px;
+    width: 257px;
+    height: 219px;
+    top: 28%;
+    left: 7%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.retasql{
+    background-color: #393F46;
+    position: absolute;
+    border-radius: 7px;
+    width: 257px;
+    height: 219px;
+    top: 28%;
+    left: 55%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.retajava{
+    background-color: #393F46;
+    position: absolute;
+    border-radius: 7px;
+    width: 257px;
+    height: 219px;
+    top: 52%;
+    left: 7%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.retawin{
+    background-color: #393F46;
+    position: absolute;
+    border-radius: 7px;
+    width: 257px;
+    height: 219px;
+    top: 52%;
+    left: 55%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.retafig{
+    background-color: #393F46;
+    position: absolute;
+    border-radius: 7px;
+    width: 257px;
+    height: 219px;
+    top: 76%;
+    left: 7%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.retaoff{
+    background-color: #393F46;
+    position: absolute;
+    border-radius: 7px;
+    width: 257px;
+    height: 219px;
+    top: 76%;
+    left: 55%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+#fundo2{
+    background-color: #222A31;
+    width: 1903px;
+    height: 960px;
+    position: absolute;
+    top: 600%;
+}
+
+#projeto{
+    color: white;
+    font-size: 56px;
+    font-family: 'Fredoka'; 
+    top: 265%;
+    position: absolute;
+}
+
+.VerProjBtn{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 40px;
+    background-color: #393F46;
+}
+
+#ogani{
+    color: white;
+    font-size: 36px;
+    font-family: 'Fredoka'; 
+    top: 250%;
+    left: -190%;
+    position: absolute;
+}
+
+#ogani img{
+    width: 1000px; 
+    height: auto; 
+    display: block; 
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#delivery{
+    color: white;
+    font-size: 36px;
+    font-family: 'Fredoka'; 
+    top: 1300%;
+    left: -190%;
+    position: absolute;
+    
+}
+
+#delivery img{
+    width: 1000px; 
+    height: auto; 
+    display: block; 
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#elit{
+    color: white;
+    font-size: 36px;
+    font-family: 'Fredoka'; 
+    top: 2240%;
+    left: -190%;
+    position: absolute;
+}
+
+#elit img{
+    width: 1000px; 
+    height: auto; 
+    display: block; 
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#hardware{
+    color: white;
+    font-size: 36px;
+    font-family: 'Fredoka'; 
+    top: 3170%;
+    left: -190%;
+    position: absolute;
+}
+
+#hardware img{
+    width: 1000px; 
+    height: auto; 
+    display: block; 
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#quadrado2{
+    background-color: #CACACA;
+    position: absolute;
+    top: 575%;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 13px;  
+    
+}
+
+.entre{
+    color: black;
+    position: absolute;
+    top: 3%;
+    font-family: 'Fredoka'; 
+    font-size: 60px;
+    left: 27%;
+
+    
+}
+
+.textopeque{
+    color: black;
+    position: absolute;
+    top: 13%;
+    font-family:'Fredoka'; 
+    font-size: 18px;
+    text-align: center;
+}
+
+#retangulo1{
+    background-color: #393F46;
+    position: absolute;
+    top: 598%;
+    left: 515px;
+    width: 370px;
+    height: 73px;
+    border-radius: 10px;
+    
+}
+
+.nomecontato{
+    color: #A1A1A2;
+    font-family:'Fredoka'; 
+    font-size: 20px;
+    top: 30%;
+    left: 5%;
+    text-align: center;
+    position: absolute;
+}
+
+#retangulo2{
+    background-color: #393F46;
+    position: absolute;
+    top: 598%;
+    left: 1000px;
+    width: 370px;
+    height: 73px;
+    border-radius: 10px;
+}
+
+.sobrenome{
+    color: #a2a1a1;
+    font-family:'Fredoka'; 
+    font-size: 20px;
+    top: 30%;
+    left: 5%;
+    text-align: center;
+    position: absolute;
+}
+
+#retangulo3{
+    background-color: #393F46;
+    position: absolute;
+    top: 615%;
+    left: 515px;
+    width: 370px;
+    height: 73px;
+    border-radius: 10px;
+}
+
+.email{
+    color: #a2a1a1;
+    font-family:'Fredoka'; 
+    font-size: 20px;
+    top: 30%;
+    left: 5%;
+    text-align: center;
+    position: absolute;
+}
+
+#retangulo4{
+    background-color: #393F46;
+    position: absolute;
+    top: 615%;
+    left: 1000px;
+    width: 370px;
+    height: 73px;
+    border-radius: 10px;
+}
+
+.telefone{
+    color: #a2a1a1;
+    font-family:'Fredoka'; 
+    font-size: 20px;
+    top: 30%;
+    left: 5%;
+    text-align: center;
+    position: absolute;
+}
+
+#retangulo5{
+    background-color: #393F46;
+    position: absolute;
+    top: 630%;
+    left: 515px;
+    width: 855px;
+    height: 270px;
+    border-radius: 10px;
+}
+
+.menssagem{
+    color: #a2a1a1;
+    font-family:'Fredoka'; 
+    font-size: 20px;
+    top: 5%;
+    left: 2%;
+    text-align: center;
+    position: absolute;
+}
+
+#retangulo6{
+    background-color: #393F46;
+    position: absolute;
+    top: 666%;
+    left: 515px;
+    width: 176px;
+    height: 66px;
+ 
+}
+
+.enviar{
+    color: white;
+    font-family:'Fredoka'; 
+    font-size: 35px;
+    top: 10%;
+    left: 19%;
+    text-align: center;
+    position: absolute;
+}
+
+a{
+    color: white; text-decoration: none;
+}
+
+
+#botao{
+    background-color: #393F46;
+    position: absolute;
+    top: 700%;
+    left: 10px;
+    width: 50px;
+    height: 66px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+#github img{
+    position: absolute;
+    top: 697%;
+    left: 45%;
+    z-index: 1;
+    height: 50px;
+    
+}
+
+#fundo3{
+    background-color: #393F46;
+    width: 1903px;
+    height: 108px;
+    position: absolute;
+    top: 694%;
+}
+
+#linked img{
+    position: absolute;
+    top: 697%;
+    left: 55%;
+    z-index: 1;
+    height: 50px; 
+}
+
+#email2 img{
+    position: absolute;
+    top: 697%;
+    left: 35%;
+    z-index: 1;
+    height: 50px; 
+}
+
+#whats img{
+    position: absolute;
+    top: 697%;
+    left: 65%;
+    z-index: 1;
+    height: 50px; 
+}
+
+
+
+#teste{
+    display: flex;
+    align-items: center;
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+body {
+    background-color: #222A31;
+    color: white;
+}
+
+#inicio,
+.retacss,
+.retahtml,
+.retac,
+.retasql,
+.retajava,
+.retawin,
+.retafig,
+.retaoff,
+#fundo3,
+#botao {
+    background-color: #393F46;
+    color: white;
+}
+
+#nome,
+#Judson,
+#habilidade,
+#projeto
+{
+    color: white;
+}
+
+
+.dark-mode {
+    background-color: #A1A1A2;
+    color: black;
+}
+
+.dark-mode #inicio,
+.dark-mode .retacss,
+.dark-mode .retahtml,
+.dark-mode .retac,
+.dark-mode .retasql,
+.dark-mode .retajava,
+.dark-mode .retawin,
+.dark-mode .retafig,
+.dark-mode .retaoff,
+.dark-mode #fundo,
+.dark-mode #botao,
+.dark-mode #fundo3{
+background-color: #CACACA;
+color: black;
+}
+
+.dark-mode #nome,
+.dark-mode #Judson,
+.dark-mode #habilidade,
+.dark-mode #projeto,
+.dark-mode .nomecontato,
+.dark-mode .sobrenome,
+.dark-mode .telefone,
+.dark-mode .email,
+.dark-mode .menssagem
+{
+color: black;
+}
+
+.dark-mode #retangulo1,
+.dark-mode #retangulo2,
+.dark-mode #retangulo3,
+.dark-mode #retangulo4,
+.dark-mode #retangulo5,
+.dark-mode #retangulo6,
+.dark-mode #fundo2
+{
+    background-color: #A1A1A2;
+}
+
+.dark-mode .textopeque,
+.dark-mode .entre{
+    color: white;
+}
+
+.dark-mode #ogani,
+.dark-mode #hardware,
+.dark-mode #delivery,
+.dark-mode #elit,
+.dark-mode .enviar{
+    color: black;
+}
+
+.dark-mode #table{
+ background-color: #A1A1A2;
+}
+
+.dark-mode #quadrado2{
+ background-color: #393F46;
+}
+
+.dark-mode #whats img,
+.dark-mode #email2 img,
+.dark-mode #linked img,
+.dark-mode #github img{
+    filter: brightness(0);
+}
+
+.dark-mode #contato222,
+.dark-mode #habilidade2,
+.dark-mode #projeto2{
+    filter: brightness(0);
+}
+
